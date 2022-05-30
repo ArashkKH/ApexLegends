@@ -6,4 +6,18 @@
     list-style-type: none;
 }
 
+a:active,a:visited,a{
+    color: inherit;
+}
 
+span{
+    cursor: default;
+}
+
+::selection{
+    background: rgb(161, 0, 0);
+    color: white;
+}
+figcaption{
+    cursor: default;
+}
